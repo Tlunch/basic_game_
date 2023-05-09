@@ -55,6 +55,7 @@ class Enemy(pygame.sprite.Sprite):
 
 pygame.init()
 # initialize so pygame works on any hardware
+pygame.display.set_caption('Bullet_Runner_')
 
 pygame.font.init()
 my_font = pygame.font.SysFont('ocraextended', 60, bold= pygame.font.Font.bold)
